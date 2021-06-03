@@ -1,0 +1,135 @@
+/* Шрифты */
+
+@font-face {
+  font-family: "DMSans-Bold";
+  src: url("../fonts/DMSans-Bold.woff2") format("woff2"), url("../fonts/DMSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Mulish-VariableFont_wght";
+  src: url("../fonts/Mulish-VariableFont_wght.woff2") format("woff2"),
+    url("../fonts/Mulish-VariableFont_wght.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Шрифты */
+
+body {
+  color: #696871;
+  font-family: "DMSans-Bold", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.container {
+  max-width: 1075px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  color: inherit;
+}
+
+/* header  */
+
+.page-header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.main-nav__item {
+  display: inline-block;
+}
+
+.main-nav__item + .main-nav__item {
+  margin-left: 50px;
+}
+
+.main-nav__item a {
+  transition: 0.3s ease-in-out;
+}
+
+.main-nav__item a:hover {
+  color: #19191b;
+  padding-bottom: 10px;
+
+  border-bottom: 2px solid #5454d4;
+}
+
+.page-header__btn {
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  padding: 20px 60px;
+  color: white;
+  background-color: #ff7143;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.page-header__btn:hover {
+  background-color: #d44d1f;
+}
+
+.page-header__bottom {
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.page-header__left {
+  max-width: 462px;
+}
+
+.page-header__title {
+  /* font-family: "DMSans-Bold"; */
+  /* font-style: normal; */
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 77px;
+  letter-spacing: -2.50105px;
+  margin-bottom: 50px;
+
+  color: #19191b;
+}
+
+.page-header__text {
+  font-family: "Mulish-VariableFont_wght";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  margin-bottom: 55px;
+
+  color: #696871;
+}
+
+.page-header__btn--blue {
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  padding: 20px 60px;
+  color: white;
+  background-color: #5454d4;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.page-header__btn--blue:hover {
+  background-color: #3737ac;
+}
+
+/* header  */
