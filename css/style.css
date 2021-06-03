@@ -133,3 +133,25 @@ a {
 }
 
 /* header  */
+
+/* partners */
+
+.partners {
+  margin-top: 85px;
+}
+
+.partners__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.partners__logos-img {
+  transition: 0.3s ease-in-out;
+}
+
+.partners__logos-img:hover {
+  opacity: 0.7;
+}
+
+/* partners */
