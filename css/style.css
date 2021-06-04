@@ -198,19 +198,238 @@ a {
   margin-bottom: 30px;
 }
 
-.subscription-index__link {
+.link-blue {
   font-size: 17px;
   line-height: 22px;
   letter-spacing: -0.531474px;
-
   color: #5454d4;
   transition: 0.3s ease-in-out;
 }
 
-.subscription-index__link:hover {
+.link-blue:hover {
   color: #3737ac;
   padding-bottom: 10px;
-
   border-bottom: 2px solid #3737ac;
 }
 /* subscription index */
+
+/* in-depth-metrics */
+
+.in-depth-metrics {
+  margin-top: 262px;
+}
+
+.in-depth-metrics__title {
+  font-size: 50px;
+  line-height: 57px;
+  margin-bottom: 30px;
+  letter-spacing: -1.56316px;
+  color: #19191b;
+}
+
+.in-depth-metrics__text {
+  font-family: "Mulish-VariableFont_wght";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: -0.625263px;
+  color: #696871;
+  margin-bottom: 30px;
+  max-width: 460px;
+}
+
+/* in-depth-metrics */
+
+/* advantages  */
+
+.advantages {
+  margin-top: 250px;
+}
+
+.advantages__inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.advantages__item {
+  text-align: center;
+  min-width: 307px;
+}
+
+.advantages__images {
+  margin-bottom: 7px;
+}
+
+.advantages__title {
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.750316px;
+  color: #19191b;
+  margin-bottom: 20px;
+}
+
+.advantages__text {
+  font-family: "Mulish-VariableFont_wght";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.500211px;
+
+  color: #696871;
+}
+
+/* advantages  */
+
+/* plan  */
+
+.plan {
+  margin-top: 150px;
+}
+
+.plan__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plan__title {
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.87579px;
+  color: #19191b;
+  max-width: 523px;
+  margin-bottom: 82px;
+}
+
+.plan__item {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  width: 330px;
+  text-align: center;
+  padding: 35px 0;
+}
+
+.plan__item div {
+  font-family: "Mulish-VariableFont_wght";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #696871;
+  margin-bottom: 22px;
+}
+
+.plan__price {
+  font-family: "DMSans-Bold";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+  margin-bottom: 50px;
+}
+
+.plan__price span {
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #1d293f;
+}
+
+.plan__list {
+  font-family: "Mulish-VariableFont_wght";
+  font-size: 17px;
+  /* line-height: 50px; */
+  letter-spacing: -0.531474px;
+  color: #696871;
+  margin-bottom: 55px;
+}
+.plan__list li {
+  margin-bottom: 37px;
+}
+
+.plan__btn--white {
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  padding: 20px 100px;
+  color: #5454d4;
+  background-color: #ffffff;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.plan__btn--white:hover {
+  color: #ffffff;
+  background-color: #5454d4;
+}
+
+.plan__item-premium {
+  color: #ffffff;
+  background-color: #ff7143;
+  border-radius: 10px;
+  width: 375px;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.plan__item-premium div {
+  font-family: "Mulish-VariableFont_wght";
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.562737px;
+  color: #ffffff;
+  margin-bottom: 22px;
+}
+
+.plan__price-premium {
+  font-family: "DMSans-Bold";
+  font-weight: 700;
+  font-style: bold;
+  font-size: 60px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.plan__price-premium span {
+  font-size: 28px;
+  line-height: 56px;
+  letter-spacing: -1.03448px;
+  color: #ffffff;
+}
+
+.plan__list-premium {
+  font-family: "Mulish-VariableFont_wght";
+  font-size: 17px;
+  /* line-height: 50px; */
+  letter-spacing: -0.531474px;
+  color: #ffffff;
+  margin-bottom: 55px;
+}
+
+.plan__list-premium li {
+  margin-bottom: 37px;
+}
+
+.plan__btn--orange {
+  font-size: 17px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: -0.531474px;
+  padding: 20px 100px;
+  color: #ffffff;
+  background-color: #9f3919;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+.plan__btn--orange:hover {
+  color: #9f3919;
+  background-color: #ffffff;
+}
+
+/* plan  */
